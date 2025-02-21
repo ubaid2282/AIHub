@@ -111,26 +111,26 @@ export default function HomePage() {
               Benefits of Collaboration
             </h2>
             <div className="grid gap-10 sm:grid-cols-2">
-              <div className="flex flex-col space-y-2">
+              <div className="flex flex-col items-center space-y-2">
                 <CheckCircleIcon className="h-8 w-8 mb-2 text-green-500" />
                 <h3 className="text-xl font-bold">Accelerated Research</h3>
                 <p className="text-gray-500 dark:text-gray-400">
                   Combine efforts to solve complex AI challenges faster
                 </p>
               </div>
-              <div className="flex flex-col space-y-2">
+              <div className="flex flex-col items-center space-y-2">
                 <CheckCircleIcon className="h-8 w-8 mb-2 text-green-500" />
                 <h3 className="text-xl font-bold">Knowledge Sharing</h3>
                 <p className="text-gray-500 dark:text-gray-400">Learn from experts and share your own insights</p>
               </div>
-              <div className="flex flex-col space-y-2">
+              <div className="flex flex-col items-center space-y-2">
                 <CheckCircleIcon className="h-8 w-8 mb-2 text-green-500" />
                 <h3 className="text-xl font-bold">Resource Optimization</h3>
                 <p className="text-gray-500 dark:text-gray-400">
                   Pool computational resources and datasets for better results
                 </p>
               </div>
-              <div className="flex flex-col space-y-2">
+              <div className="flex flex-col items-center space-y-2">
                 <CheckCircleIcon className="h-8 w-8 mb-2 text-green-500" />
                 <h3 className="text-xl font-bold">Career Growth</h3>
                 <p className="text-gray-500 dark:text-gray-400">Expand your network and showcase your contributions</p>
