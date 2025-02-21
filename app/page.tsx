@@ -7,6 +7,16 @@ export const metadata: Metadata = {
 }
 
 export default function Home() {
-  return <HomePage />
+  return (
+    <div>
+      <HomePage />
+      <iframe
+        src="https://umarbalak-collabai.hf.space"
+        width="100%"
+        height="500px"
+        style={{ border: "none", marginTop: "20px" }}
+        title="Chatbot"
+      ></iframe>
+    </div>
+  )
 }
-

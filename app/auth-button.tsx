@@ -8,9 +8,13 @@ export default function AuthButton() {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
 
   const handleAuth = () => {
-    // Here you would implement the GitHub OAuth flow
-    // For now, we'll just toggle the state
-    setIsAuthenticated(!isAuthenticated)
+    if (isAuthenticated) {
+      // Handle sign out logic here if needed
+      setIsAuthenticated(false)
+    } else {
+      // Redirect to your authentication API
+      window.location.href = "https://gitauth-iza6.onrender.com/login"
+    }
   }
 
   return (
@@ -20,4 +24,3 @@ export default function AuthButton() {
     </Button>
   )
 }
-
